@@ -1,0 +1,71 @@
+header {
+  @include flex(center, center, column);
+  min-height: 30vh;
+  h1 {
+    padding: 2rem;
+    font-size: $logo;
+  }
+  #logo {
+    text-decoration: none;
+    color: black;
+    background: #2b5867;
+    background: -webkit-linear-gradient(
+      to right,
+      #2b5867 0%,
+      #4e4376 51%,
+      #2b5867 100%
+    );
+    background: -moz-linear-gradient(
+      to right,
+      #2b5867 0%,
+      #4e4376 51%,
+      #2b5867 100%
+    );
+    background: linear-gradient(
+      to right,
+      #2b5867 0%,
+      #4e4376 51%,
+      #2b5867 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.search-form {
+  padding: 1.5rem;
+  display: flex;
+  input {
+    font-size: $txt;
+    padding: 0.35rem;
+    width: 100%;
+    border: none;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    border-radius: 1rem;
+  }
+}
+.submit-btn {
+  background-image: linear-gradient(
+    to right,
+    #2b5876 0%,
+    #4e4376 51%,
+    #2b5876 100%
+  );
+}
+.submit-btn {
+  margin: 0.2rem;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 300% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 1rem;
+  font-size: $txt;
+}
+
+.submit-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

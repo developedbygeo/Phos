@@ -1,0 +1,10 @@
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+$logo: 5rem;
+$h1: 3rem;
+
+$txt: 1.4rem;
