@@ -74,4 +74,15 @@ header #logo {
   color: #fff;
   text-decoration: none;
 }
+
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery-info a {
+  color: #4e4376;
+}
 /*# sourceMappingURL=style.css.map */

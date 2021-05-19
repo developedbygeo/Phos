@@ -69,3 +69,10 @@ header {
   color: #fff;
   text-decoration: none;
 }
+
+.gallery-info {
+  @include flex(space-between, center, row);
+  a {
+    color: #4e4376;
+  }
+}
