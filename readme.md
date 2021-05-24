@@ -37,7 +37,7 @@ const config = your_api_key;
 
 To use it, the config file needs to be added to the HTML and then imported to the app.js
 
-```
+```JavaScript
 const auth = config;
 ```
 
