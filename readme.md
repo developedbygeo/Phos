@@ -16,7 +16,7 @@ To work properly, the Phos app uses the following:
 
 - JavaScript
 - Pexels API
-- CSS
+- SCSS
 - HTML
 
 ## Installation
