@@ -141,4 +141,58 @@ header #logo {
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+  .gallery {
+    width: 100%;
+  }
+  header {
+    min-height: 2vh;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    background: white;
+    width: 100%;
+  }
+  header h1 {
+    padding: 0;
+    font-size: 3rem;
+  }
+  .submit-btn {
+    padding: 1rem;
+  }
+  .gallery-info {
+    padding: 0;
+  }
+  .more {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    width: 100%;
+  }
+  header {
+    min-height: 2vh;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    background: white;
+    width: 100%;
+  }
+  header h1 {
+    padding: 0;
+    font-size: 3rem;
+  }
+  .submit-btn {
+    padding: 1rem;
+  }
+  .gallery-info {
+    padding: 0;
+  }
+  .more {
+    padding: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
