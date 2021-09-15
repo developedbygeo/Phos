@@ -1,4 +1,4 @@
-const auth = config;
+const auth = prompt("Please provide your API key");
 const gallery = document.querySelector(".gallery");
 const searchInput = document.querySelector(".search-input");
 const form = document.querySelector(".search-form");
