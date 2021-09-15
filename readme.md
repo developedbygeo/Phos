@@ -41,6 +41,14 @@ To use it, the config file needs to be added to the HTML and then imported to th
 const auth = config;
 ```
 
+## API Key Alternative
+
+Instead, you can use your API key directly through the prompt on load.
+
+## Live Version
+
+<https://developedbygeo.github.io/Phos>
+
 ## Development
 
 Want to contribute? Great!
